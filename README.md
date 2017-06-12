@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application form for Applicant, In actually i should do this by Java , but I try to do in Ruby on rails first, because
+I want to understanding with Structural and overview of this project
 
-Things you may want to cover:
+* Applicantion Form
 
-* Ruby version
+* Show all Applicant list
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
