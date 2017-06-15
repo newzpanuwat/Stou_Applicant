@@ -1,0 +1,19 @@
+<%= form_for @qualification do |f| %>
+    <div class="field">
+        <%= f.label :Qual_Code %>
+        <%= f.text_field :qual_code %>
+    </div>
+
+     <div class="field">
+        <%= f.label :Qual_Desc %>
+        <%= f.text_field :qual_desc %>
+    </div>
+
+     <div class="action">
+        <%= f.submit %>
+    </div>
+
+
+<% end %>
+
+<%= link_to 'Back', qualifications_path %>

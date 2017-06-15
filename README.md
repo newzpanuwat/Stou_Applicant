@@ -7,3 +7,4 @@ I want to understanding with Structural and overview of this project
 
 * Show all Applicant list
 
+* Show list of Job title

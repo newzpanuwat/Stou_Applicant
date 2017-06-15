@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170612090117) do
+ActiveRecord::Schema.define(version: 20170613045252) do
 
   create_table "applicants", force: :cascade do |t|
     t.string "ap_code"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20170612090117) do
     t.string "ap_maj"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ap_province"
   end
 
   create_table "positions", force: :cascade do |t|
@@ -28,6 +29,7 @@ ActiveRecord::Schema.define(version: 20170612090117) do
     t.integer "applicant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "pos_code"
     t.index ["applicant_id"], name: "index_positions_on_applicant_id"
   end
 
@@ -37,6 +39,7 @@ ActiveRecord::Schema.define(version: 20170612090117) do
     t.integer "applicant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "qual_code"
     t.index ["applicant_id"], name: "index_qualifications_on_applicant_id"
     t.index ["position_id"], name: "index_qualifications_on_position_id"
   end

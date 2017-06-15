@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :applicants
+  get 'qualifications/index'
 
+  resources :applicants
+    resources :qualifications 
   root 'applicants#index'
 
 end
